@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<view style="background:#eee;width:100%;height:100%">
+<navigator url="../list/list"><button><image src="../../images/jia.png" style="width:35rpx;height:35rpx"></image><text style="font-size:40rpx;margin-left:10rpx">创建投票</text></button></navigator>
+</view>

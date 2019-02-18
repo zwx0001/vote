@@ -1,0 +1,15 @@
+/* pages/mine/mine.wxss */
+.wrapper{
+  width:100%;
+  height:100%;
+  background: #eee;
+}
+.addtic {
+  height:150rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.addtic button{
+  width:90%;
+}

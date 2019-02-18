@@ -1,0 +1,17 @@
+<!--pages/list/list.wxml-->
+<view class="wrapper">
+  <!-- l列表内容 -->
+  <scroll-view scroll-y style="height: 440px">
+    <view class="content">
+      <listItem wx:for="{{dataList}}" wx:key="{{index}}" item="{{item}}" bind:myeventadd="add"></listItem>
+    </view>
+  </scroll-view>
+  <!-- 底部 -->
+  <view class="foot">
+    <view class="car-box">
+      <image src="../../images/gouwuche.png"></image>
+      <text>{{count}}</text>
+    </view>
+    <view class="wh sure-btn" bindtap='sureAdd'>确认添加</view>
+  </view>
+</view>

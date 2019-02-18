@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+button{
+  width:80%;
+  position: relative;
+  top:1000rpx;
+}

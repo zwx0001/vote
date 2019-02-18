@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "listItem":"../../components/listItem/listItem"
+  },
+  "navigationBarTitleText": "选择参与投票的商户",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundTextStyle":"dark",
+  "enablePullDownRefresh":true
+}

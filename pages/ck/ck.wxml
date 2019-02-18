@@ -1,0 +1,21 @@
+<!--pages/ck/ck.wxml-->
+<view class="wrapper">
+  <view class="tit">
+    <text>主题</text>
+    <text class="fs35 gr">吃哪家？投票最公平</text>
+  </view>
+  <view style="height:180rpx;display:flex;justify-content: space-between;align-items: center;">
+    <button style="width:92%;background:#fff;margin-top:20rpx" bindtap='goadd'>
+      <image src="../../images/jia.png" style="width:35rpx;height:35rpx"></image>
+      <text style="font-size:40rpx;margin-left:10rpx">添加喜欢的餐厅</text>
+    </button>
+  </view>
+  <!-- listl列表 -->
+  <view class="content" style="background:#fff;padding:0 20rpx;margin-bottom:150rpx">
+    <listItem wx:for="{{listData}}" wx:key="index" item="{{item}}" del="false" bind:myeventdel="del"></listItem>
+  </view>
+  <!-- 底部按钮 -->
+  <view class="footer">
+    <button bindtap='gomine'>生成投票</button>
+  </view>
+</view>

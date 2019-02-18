@@ -1,0 +1,25 @@
+/**app.wxss**/
+/* 全局 */
+.wh{
+  color:#fff;
+}
+.gr{
+  color:gray;
+}
+.fs35{
+  font-size: 35rpx;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  width:100%;
+  height:100%;
+}

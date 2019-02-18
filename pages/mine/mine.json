@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "listItem": "../../components/listItem/listItem"
+  },
+  "navigationBarTitleText": "聚餐投票"
+}

@@ -1,0 +1,63 @@
+/* pages/list/list.wxss */
+
+.foot {
+  width: 100%;
+  height: 150rpx;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot text {
+  display: inline-block;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.foot .sure-btn {
+  padding: 20rpx 30rpx;
+  border-radius: 50rpx;
+  background: #ff6634;
+  color: #fff;
+  margin-right: 30rpx;
+}
+
+.foot .car-box {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background: #fff;
+  border: solid 1rpx gray;
+  position: relative;
+  top: -30rpx;
+  left: 50rpx;
+}
+
+.foot image {
+  width: 65rpx;
+  height: 65rpx;
+  position: absolute;
+  left: 35rpx;
+  top: 35rpx;
+}
+
+.foot .car-box text {
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: absolute;
+  top: 10rpx;
+  right: -10rpx;
+}
+
+.content {
+  padding: 0 30rpx;
+}

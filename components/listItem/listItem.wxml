@@ -1,0 +1,14 @@
+<!--components/list-item/list-item.wxml-->
+<view class="content-item" wx:key="{{index}}">
+  <image src="{{item.imgUrl}}"></image>
+  <view>
+    <view style="width:400rpx;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;">{{item.nm}}</view>
+    <view style="color:gray;font-size:35rpx;">￥{{item.peo}}/人</view>
+    <view>
+      <text style="color:gray;font-size:35rpx;">上地</text>
+      <text style="color:gray;font-size:35rpx;">湘菜</text>
+    </view>
+  </view>
+  <image wx:if="{{del==='true'}}" src="{{flag?'../../images/1.png':'../../images/2.png'}}" bindtap='add' data-val="{{item}}"></image>
+  <image wx:else src="../../images/shanchu.png" bindtap='del' data-val="{{item}}"></image>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/mine/mine.wxml-->
+<view class="wrapper">
+  <view class="addtic">
+    <button>
+      <image src="../../images/jia.png" style="width:35rpx;height:35rpx"></image>
+      <text style="font-size:40rpx;margin-left:10rpx">创建投票</text>
+    </button>
+  </view>
+  <view style="padding:0 40rpx;"><text class="fs35 gr">我创建的投票</text></view>
+  <view class="mine" style="padding:0 20rpx;">
+    <listItem wx:for="{{data}}" wx:key="{{index}}" item="{{item}}"></listItem>
+  </view>
+</view>
